@@ -1,0 +1,39 @@
+CREATE TABLE users (
+  id INT PRIMARY KEY,
+  name VARCHAR(50) NOT NULL,
+  email VARCHAR(50) UNIQUE NOT NULL,
+  password VARCHAR(255) NOT NULL,
+  phone VARCHAR(11) NOT NULL,
+  createdAt TIMESTAMP NOT NULL DEFAULT CURRENT_TIMESTAMP,
+  updatedAt TIMESTAMP NOT NULL DEFAULT CURRENT_TIMESTAMP ON UPDATE CURRENT_TIMESTAMP
+  role ENUM('driver', 'mechanic') NOT NULL DEFAULT 'driver',
+);
+
+CREATE TABLE vehicles (
+  id INT PRIMARY KEY,
+  user_id INT NOT NULL,
+  brand VARCHAR(50) NOT NULL, -- Exemplo: Ford
+  model VARCHAR(50) NOT NULL,
+  year INT NOT NULL,
+  color VARCHAR(20) NOT NULL,
+  license_plate VARCHAR(10) NOT NULL,
+  created_at TIMESTAMP NOT NULL DEFAULT CURRENT_TIMESTAMP,
+  updated_at TIMESTAMP NOT NULL DEFAULT CURRENT_TIMESTAMP ON UPDATE CURRENT_TIMESTAMP,
+  FOREIGN KEY (user_id) REFERENCES users(id)
+);
+
+CREATE TABLE services (
+  id INT PRIMARY KEY,
+  user_id INT NOT NULL,
+  mechanic_id INT NOT NULL,
+  vehicle_id INT NOT NULL,
+  location_lat DECIMAL(10, 6) NOT NULL,
+  location_lng DECIMAL(10, 6) NOT NULL,
+  description TEXT,
+  status VARCHAR(20) NOT NULL, -- Definir status - Exemplo: Solved, Unsolved, sla
+  created_at TIMESTAMP NOT NULL DEFAULT CURRENT_TIMESTAMP,
+  updated_at TIMESTAMP NOT NULL DEFAULT CURRENT_TIMESTAMP ON UPDATE CURRENT_TIMESTAMP,
+  FOREIGN KEY (user_id) REFERENCES users(id),
+  FOREIGN KEY (mechanic_id) REFERENCES mechanics(id),
+  FOREIGN KEY (vehicle_id) REFERENCES vehicles(id)
+);
