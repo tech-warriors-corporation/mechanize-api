@@ -25,11 +25,13 @@ CREATE TABLE services (
   id INT PRIMARY KEY,
   driver_id INT NOT NULL,
   mechanic_id INT NOT NULL,
+  vehicle_id INT NOT NULL,
   location VARCHAR(200) NOT NULL,
   description VARCHAR(400) NOT NULL,
   created_at TIMESTAMP NOT NULL DEFAULT CURRENT_TIMESTAMP,
   updated_at TIMESTAMP ON UPDATE CURRENT_TIMESTAMP,
   role ENUM('running', 'unsolved', 'solved') NOT NULL DEFAULT 'running',
   FOREIGN KEY (driver_id) REFERENCES users(id),
-  FOREIGN KEY (mechanic_id) REFERENCES users(id)
+  FOREIGN KEY (mechanic_id) REFERENCES users(id),
+  FOREIGN KEY (vehicle_id) REFERENCES vehicles(id)
 );
