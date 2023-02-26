@@ -16,4 +16,7 @@ class DatabaseHelper:
                 port=environ.get("DB_PORT")
             )
 
-        self.connection = _connection
+        self._connection = _connection
+
+    def get_connection(self):
+        return self._connection
