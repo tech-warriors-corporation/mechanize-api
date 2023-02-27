@@ -29,4 +29,6 @@ Run `python -m app` to start project.
 - [ ] See this [Saga](https://github.com/victoramsantos/saga-pattern-example) example;
 - [ ] Created base classes for services, repositories, controllers and others;
 - [ ] Connect to development and production database;
-- [ ] Set environment variables and remove hardcoded properties.
+- [ ] Set environment variables and remove hardcoded properties;
+- [ ] Study about **Decompose by Subdomain**, **API Composition**, **API Gateway** and **Healthcheck**;
+- [ ] Remove FOREIGN KEY at `script.sql`.
