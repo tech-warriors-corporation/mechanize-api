@@ -5,7 +5,8 @@ Mechanize (API) assist people fix their car and reach their destination.
 - The helpers, services, controllers, repositories, enums and others files should have a **suffix** in name, example: `users_controller.py`;
 - Repositories and enums should be named in **singular**, example: `user_repository.py`;
 - Files should be in _snake_case_ and class name in _PascalCase_;
-- Microservices should be in **plural** name.
+- Microservices should be in **plural** name;
+- Use `psql -h YOUR_HOST -d YOUR_DATABASE_NAME -U YOUR_USER -p YOUR_PORT` to connect in database.
 
 ## Microservices:
 - [Accounts](https://github.com/tech-warriors-corporation/mechanize-accounts-api);
