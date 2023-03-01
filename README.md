@@ -21,4 +21,5 @@ Mechanize (API) assist people fix their car and reach their destination.
 - [ ] Study about **Decompose by Subdomain**, **API Composition**, **API Gateway** and **Healthcheck**;
 - [ ] Remove _FOREIGN KEY_ at databases;
 - [ ] Check all repositories and documentations;
-- [ ] Make a service create in [Helps](https://github.com/tech-warriors-corporation/mechanize-helps-api) microservice.
+- [ ] Do get of user from id in [Accounts](https://github.com/tech-warriors-corporation/mechanize-accounts-api) microservice;
+- [ ] Make service create in [Helps](https://github.com/tech-warriors-corporation/mechanize-helps-api) microservice.
