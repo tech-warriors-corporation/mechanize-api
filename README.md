@@ -1,6 +1,9 @@
 # mechanize-api
 Mechanize (API) assist people fix their car and reach their destination.
 
+## Requirements
+- Download [PostgreSQL](https://www.postgresql.org) to use databases.
+
 ## Architecture 
 - The helpers, services, controllers, repositories, enums and others files should have a **suffix** in name, example: `users_controller.py`;
 - Repositories and enums should be named in **singular**, example: `user_repository.py`;
