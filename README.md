@@ -30,6 +30,7 @@ Download [PostgreSQL](https://www.postgresql.org) to use databases.
 - [ ] Set environment variables and remove hardcoded properties;
 - [X] Study about **Decompose by Subdomain**, **API Composition**, **API Gateway** and **Healthcheck**;
 - [X] Remove _FOREIGN KEY_ at databases;
+- [X] Layout in [Figma](https://www.figma.com/file/kl05E88sullmKzVTNxXItO/Mechanize?node-id=0-1&t=eUnJ6JgzMokk1muF-0);
 - [X] Check all repositories and documentations;
 - [X] Do get of user from id in [Accounts](https://github.com/tech-warriors-corporation/mechanize-accounts-api) microservice;
 - [X] Make service create in [Helps](https://github.com/tech-warriors-corporation/mechanize-helps-api) microservice;
