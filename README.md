@@ -22,7 +22,7 @@ Download [PostgreSQL](https://www.postgresql.org) to use databases.
 - [ ] Add [CORS](https://flask-cors.readthedocs.io/en/latest) to correct origin;
 - [X] Create events to communicate microservices;
 - [X] Verify if controller throw when repository or service throws;
-- [ ] Get user tokenized from JWT ([PyJWT](https://pyjwt.readthedocs.io/en/stable));
+- [X] Get user tokenized from JWT ([PyJWT](https://pyjwt.readthedocs.io/en/stable));
 - [X] Read about [add_url_rule](https://tedboy.github.io/flask/generated/generated/flask.Flask.add_url_rule.html);
 - [X] See this [Saga architecture pattern](https://github.com/victoramsantos/saga-pattern-example) example;
 - [X] Create base classes for services, repositories, controllers and others;
