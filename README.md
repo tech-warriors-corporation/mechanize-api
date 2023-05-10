@@ -19,7 +19,7 @@ Download [PostgreSQL](https://www.postgresql.org) to use databases.
 - [X] Read about [blueprints](https://flask.palletsprojects.com/en/2.2.x/blueprints) to apply in routes;
 - [X] Use [Stock Management (API)](https://github.com/tech-warriors-corporation/stock-management-api) as example;
 - [X] Block commits in main branch;
-- [ ] Add [CORS](https://flask-cors.readthedocs.io/en/latest) to correct origin (use CLIENT_ID as solution);
+- [X] Add [CORS](https://flask-cors.readthedocs.io/en/latest) to correct origin (use CLIENT_ID as solution);
 - [X] Create events to communicate microservices;
 - [X] Verify if controller throw when repository or service throws;
 - [X] Get user tokenized from JWT ([PyJWT](https://pyjwt.readthedocs.io/en/stable));
