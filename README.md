@@ -27,7 +27,7 @@ Download [PostgreSQL](https://www.postgresql.org) to use databases.
 - [X] See this [Saga architecture pattern](https://github.com/victoramsantos/saga-pattern-example) example;
 - [X] Create base classes for services, repositories, controllers and others;
 - [X] Connect to development and production databases;
-- [ ] Set environment variables and remove hardcoded properties;
+- [X] Set environment variables and remove hardcoded properties;
 - [ ] Think about product marketing;
 - [ ] If user tries to enter the password 5 times and fails, then it must wait 15 seconds to try again;
 - [x] Validate access token in headers request;
