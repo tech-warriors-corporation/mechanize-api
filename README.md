@@ -29,6 +29,7 @@ Download [PostgreSQL](https://www.postgresql.org) to use databases.
 - [X] Connect to development and production databases;
 - [X] Set environment variables and remove hardcoded properties;
 - [ ] Think about product marketing;
+- [ ] Create more functions to product;
 - [x] Validate access token in headers request;
 - [X] Study about **Decompose by Subdomain**, **API Composition**, **API Gateway** and **Healthcheck**;
 - [X] Remove _FOREIGN KEY_ at databases;
