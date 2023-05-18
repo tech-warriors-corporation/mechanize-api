@@ -29,7 +29,6 @@ Download [PostgreSQL](https://www.postgresql.org) to use databases.
 - [X] Connect to development and production databases;
 - [X] Set environment variables and remove hardcoded properties;
 - [ ] Think about product marketing;
-- [ ] If user tries to enter the password 5 times and fails, then it must wait 15 seconds to try again;
 - [x] Validate access token in headers request;
 - [X] Study about **Decompose by Subdomain**, **API Composition**, **API Gateway** and **Healthcheck**;
 - [X] Remove _FOREIGN KEY_ at databases;
