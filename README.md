@@ -17,7 +17,7 @@ Download [PostgreSQL](https://www.postgresql.org) to use databases.
 
 ## Roadmap:
 - [X] Read about [blueprints](https://flask.palletsprojects.com/en/2.2.x/blueprints) to apply in routes;
-- [X] Use [Stock Management (API)](https://github.com/tech-warriors-corporation/stock-management-api) as example;
+- [X] Use [Stock Management (API)](https://github.com/tech-warriors-corporation/stock-management-api) as example (remove it in future);
 - [X] Block commits in main branch;
 - [X] Add [CORS](https://flask-cors.readthedocs.io/en/latest) to correct origin (use CLIENT_ID as solution);
 - [X] Create events to communicate microservices;
