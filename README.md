@@ -28,9 +28,12 @@ Download [PostgreSQL](https://www.postgresql.org) to use databases.
 - [X] Create base classes for services, repositories, controllers and others;
 - [X] Connect to development and production databases;
 - [X] Set environment variables and remove hardcoded properties;
-- [ ] Think about product marketing;
 - [ ] Create more functions to product;
 - [ ] The mechanic can't create a help (necessary block request);
+- [ ] Payment gateway integration;
+- [ ] Set HTTPS (version 2);
+- [ ] QA environment;
+- [ ] Implement 2FA;
 - [x] Validate access token in headers request;
 - [X] Study about **Decompose by Subdomain**, **API Composition**, **API Gateway** and **Healthcheck**;
 - [X] Remove _FOREIGN KEY_ at databases;
