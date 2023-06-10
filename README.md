@@ -15,7 +15,7 @@ Download [PostgreSQL](https://www.postgresql.org) to use databases.
 ## Microservices:
 - [Accounts](https://github.com/tech-warriors-corporation/mechanize-accounts-api);
 - [Helps](https://github.com/tech-warriors-corporation/mechanize-helps-api).
-- 
+
 ## Roadmap:
 - [X] Read about [blueprints](https://flask.palletsprojects.com/en/2.2.x/blueprints) to apply in routes;
 - [X] Use [Stock Management (API)](https://github.com/tech-warriors-corporation/stock-management-api) as example (remove it in future);
@@ -30,7 +30,7 @@ Download [PostgreSQL](https://www.postgresql.org) to use databases.
 - [X] Connect to development and production databases;
 - [X] Set environment variables and remove hardcoded properties;
 - [ ] Create more functions to product;
-- [ ] The mechanic can't create a help (necessary block request);
+- [X] The mechanic can't create a help (necessary block request);
 - [ ] Payment gateway integration;
 - [ ] Set HTTPS (version 2);
 - [ ] QA environment;
