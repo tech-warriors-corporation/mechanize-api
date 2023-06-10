@@ -1,6 +1,8 @@
 # mechanize-api
 Mechanize (API) assist people fix their car and reach their destination.
 
+<img src="http://jwt.io/img/logo-asset.svg" alt="JWT logo" width="100">
+
 ## Requirement
 Download [PostgreSQL](https://www.postgresql.org) to use databases.
 
