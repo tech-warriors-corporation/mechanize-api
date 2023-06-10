@@ -15,6 +15,9 @@ Download [PostgreSQL](https://www.postgresql.org) to use databases.
 - [Accounts](https://github.com/tech-warriors-corporation/mechanize-accounts-api);
 - [Helps](https://github.com/tech-warriors-corporation/mechanize-helps-api).
 
+## PostgreSQL:
+Command to connect in local database is `psql -U <user_name> -h localhost <database_name>`.
+
 ## Roadmap:
 - [X] Read about [blueprints](https://flask.palletsprojects.com/en/2.2.x/blueprints) to apply in routes;
 - [X] Use [Stock Management (API)](https://github.com/tech-warriors-corporation/stock-management-api) as example (remove it in future);
