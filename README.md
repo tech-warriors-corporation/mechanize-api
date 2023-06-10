@@ -11,7 +11,8 @@ Download [PostgreSQL](https://www.postgresql.org) to use databases.
 - Repositories and enums should be named in **singular**, example: `user_repository.py`;
 - Files should be in _snake_case_ and class name in _PascalCase_;
 - Microservices should be in **plural** name;
-- Use `psql -h YOUR_HOST -d YOUR_DATABASE_NAME -U YOUR_USER -p YOUR_PORT` to connect in database.
+- Use `psql -h YOUR_HOST -d YOUR_DATABASE_NAME -U YOUR_USER -p YOUR_PORT` to connect in database;
+- Set a script in database needs to run `\i script.sql`.
 
 ## Microservices:
 - [Accounts](https://github.com/tech-warriors-corporation/mechanize-accounts-api);
@@ -31,7 +32,7 @@ Download [PostgreSQL](https://www.postgresql.org) to use databases.
 - [X] Connect to development and production databases;
 - [X] Set environment variables and remove hardcoded properties;
 - [ ] Create more functions to product;
-- [ ] The mechanic can't create a help (necessary block request);
+- [X] The mechanic can't create a help (necessary block request);
 - [ ] Payment gateway integration;
 - [ ] Set HTTPS (version 2);
 - [ ] QA environment;
