@@ -39,6 +39,7 @@ Download [PostgreSQL](https://www.postgresql.org) to use databases.
 - [ ] Set HTTPS (version 2);
 - [ ] QA environment;
 - [ ] Implement 2FA;
+- [ ] Block IP if user tries a lot of requests in the same endpoint;
 - [x] Validate access token in headers request;
 - [X] Study about **Decompose by Subdomain**, **API Composition**, **API Gateway** and **Healthcheck**;
 - [X] Remove _FOREIGN KEY_ at databases;
