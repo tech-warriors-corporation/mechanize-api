@@ -49,3 +49,6 @@ Download [PostgreSQL](https://www.postgresql.org) to use databases.
 - [X] Do get of user from id in [Accounts](https://github.com/tech-warriors-corporation/mechanize-accounts-api) microservice;
 - [X] Make service create in [Helps](https://github.com/tech-warriors-corporation/mechanize-helps-api) microservice;
 - [X] Return user id after create it in [Accounts](https://github.com/tech-warriors-corporation/mechanize-accounts-api) microservice.
+
+## Create ticket diagram:
+![Create ticket diagram](./images/create-ticket-diagram.png)
