@@ -34,6 +34,7 @@ Download [PostgreSQL](https://www.postgresql.org) to use databases.
 - [X] Set environment variables and remove hardcoded properties;
 - [ ] Create more functions to product;
 - [ ] Improve product always;
+- [ ] Cancel ticket from driver and mechanic in attending ticket;
 - [X] The mechanic can't create a help (necessary block request);
 - [ ] Payment gateway integration;
 - [ ] Set HTTPS (version 2);
