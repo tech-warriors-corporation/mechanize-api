@@ -43,6 +43,7 @@ Download [PostgreSQL](https://www.postgresql.org) to use databases.
 - [ ] Block IP if user tries a lot of requests in the same endpoint;
 - [ ] Use [WebSocket](https://websockets.readthedocs.io/en/stable);
 - [ ] Configure servers for microservices (urls, environment variables and others);
+- [ ] Create our PostgreSQL databases in [Render](http://render.com);
 - [x] Validate access token in headers request;
 - [X] Study about **Decompose by Subdomain**, **API Composition**, **API Gateway** and **Healthcheck**;
 - [X] Remove _FOREIGN KEY_ at databases;
