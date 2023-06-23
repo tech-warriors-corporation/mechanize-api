@@ -46,6 +46,7 @@ Download [PostgreSQL](https://www.postgresql.org) to use databases.
 - [ ] Create our PostgreSQL databases in [Render](http://render.com);
 - [ ] Get available tickets close from mechanic who is call services;
 - [ ] Paginate some requests;
+- [ ] Verify if user if who is calling endpoint is the user of ticket;
 - [x] Validate access token in headers request;
 - [X] Study about **Decompose by Subdomain**, **API Composition**, **API Gateway** and **Healthcheck**;
 - [X] Remove _FOREIGN KEY_ at databases;
