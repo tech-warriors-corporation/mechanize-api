@@ -20,6 +20,7 @@ Download [PostgreSQL](https://www.postgresql.org) to use databases.
 - [Helps](https://github.com/tech-warriors-corporation/mechanize-helps-api).
 
 ## Roadmap:
+- [ ] Review all topics;
 - [X] Read about [blueprints](https://flask.palletsprojects.com/en/2.2.x/blueprints) to apply in routes;
 - [X] Use [Stock Management (API)](https://github.com/tech-warriors-corporation/stock-management-api) as example (remove it in future);
 - [X] Block commits in main branch;
