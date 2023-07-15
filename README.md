@@ -35,7 +35,7 @@ Download [PostgreSQL](https://www.postgresql.org) to use databases.
 - [X] Set environment variables and remove hardcoded properties;
 - [ ] Create more functions to product;
 - [ ] Improve product always;
-- [ ] Cancel ticket from driver and mechanic in attending ticket;
+- [X] Cancel ticket from driver and mechanic in attending ticket;
 - [X] The mechanic can't create a help (necessary block request);
 - [ ] Payment gateway integration;
 - [ ] Set HTTPS (version 2);
@@ -43,12 +43,12 @@ Download [PostgreSQL](https://www.postgresql.org) to use databases.
 - [ ] Implement 2FA;
 - [ ] Block IP if user tries a lot of requests in the same endpoint;
 - [ ] Use [WebSocket](https://websockets.readthedocs.io/en/stable);
-- [ ] Configure servers for microservices (urls, environment variables and others);
-- [ ] Create our PostgreSQL databases in [Render](http://render.com);
+- [X] Configure servers for microservices (urls, environment variables and others);
+- [X] Create our PostgreSQL databases in [Render](http://render.com);
 - [ ] Get available tickets close from mechanic who is call services;
 - [ ] Paginate some requests;
-- [ ] Verify if user if who is calling endpoint is the user of ticket;
-- [ ] Set URL of API's in GitHub repositories;
+- [ ] Verify if user who is calling endpoint is the user of ticket;
+- [X] Set URL of API's in GitHub repositories;
 - [x] Validate access token in headers request;
 - [X] Study about **Decompose by Subdomain**, **API Composition**, **API Gateway** and **Healthcheck**;
 - [X] Remove _FOREIGN KEY_ at databases;
