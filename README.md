@@ -43,7 +43,7 @@ Download [PostgreSQL](https://www.postgresql.org) to use databases.
 - [ ] Implement 2FA;
 - [ ] Block IP if user tries a lot of requests in the same endpoint;
 - [ ] Use [WebSocket](https://websockets.readthedocs.io/en/stable);
-- [ ] Can not select a ticket that is cancelled or other wrong thing;
+- [X] Can not select a ticket that is cancelled or other wrong thing;
 - [X] Configure servers for microservices (urls, environment variables and others);
 - [X] Create our PostgreSQL databases in [Render](http://render.com);
 - [ ] Get available tickets close from mechanic who is call services;
