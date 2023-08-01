@@ -39,7 +39,7 @@ Download [PostgreSQL](https://www.postgresql.org) to use databases.
 - [X] The mechanic can't create a help (necessary block request);
 - [ ] Payment gateway integration;
 - [X] Set HTTPS (version 2);
-- [ ] Pay for [Render](http://render.com) simple plan;
+- [X] Pay for [Render](http://render.com) simple plan;
 - [ ] QA environment;
 - [ ] Implement 2FA;
 - [ ] Block IP if user tries a lot of requests in the same endpoint;
